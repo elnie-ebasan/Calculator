@@ -1,0 +1,65 @@
+body {
+    background-image: url(/images/wallpaperflare.com_wallpaper.jpg);
+}
+
+
+img {
+    position: relative;
+    left: 40%;
+    width: 350px;
+    
+}
+
+
+.calculator {
+    position:absolute;
+    left: 37.8%;
+    top: 18%;
+    background-image: url(/images/mecha-bg.jpg);
+    width: 27rem;   
+    height: 40rem;
+    border: solid black;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.container {
+    background-color: lightskyblue;
+    border: solid black;
+    width: 23rem;
+    height: 35rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+.result {
+    width: 20rem;
+    height: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 5px;
+}
+
+.number, .allclear, .operation, .equals, .delete {
+    background-color: grey;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 5px;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.delete {
+    margin-left: 12.9rem;
+}
+
+.number:active, .allclear:active, .operation:active, .equals:active, .delete:active {
+    color: white;
+}
+
+.number:hover, .allclear:hover, .operation:hover, .equals:hover, .delete:hover {
+    background-color: rgba(225, 225, 225, 75);
+}
+
+
+
